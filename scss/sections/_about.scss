@@ -1,0 +1,31 @@
+.about {
+  background: rgba(255, 255, 255, 1);
+  margin-bottom: 100px;
+  &__wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top: 2px solid var(--main-color-2);
+    border-bottom: 2px solid var(--main-color-2);
+    padding: 42px 0;
+  }
+  &__title {
+    max-width: 297px;
+    width: 100%;
+    color: var(--main-color-1);
+    font-size: 42px;
+    font-weight: 600;
+  }
+  &__text {
+    max-width: 746px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 32px;
+  }
+  &__paragraph {
+    color: var(--main-color-1);
+    font-size: 16;
+    font-weight: 400;
+  }
+}
